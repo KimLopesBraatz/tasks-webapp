@@ -1,0 +1,51 @@
+
+.app {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+  min-height: 100vh;
+  padding: 5px;
+  background-color: #e2e2e2;
+}
+
+@media only screen and (min-width: 840px) {
+  .home-container {
+    padding: 60px;
+  }
+}
+
+.task-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.task-card-container {
+  flex: 1 1 auto;
+  max-width: 33%;
+  min-height: 80%;
+  margin: 5px;
+
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.task-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 20px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2e3c42;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
